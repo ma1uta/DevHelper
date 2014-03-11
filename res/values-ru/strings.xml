@@ -6,4 +6,5 @@
     <string name="devilButton">Дьявольский смех</string>
     <string name="eralashButton">Ералаш</string>
     <string name="stopButton">Стоп</string>
+    <string name="whipButton">Кнут</string>
 </resources>

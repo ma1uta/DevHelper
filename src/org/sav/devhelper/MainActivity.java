@@ -45,6 +45,10 @@ public class MainActivity extends Activity {
         stopPlayer();
     }
 
+    public void onWhip(View view) {
+        play(R.raw.whip);
+    }
+
     private void stopPlayer() {
         if (player != null) {
             if (player.isPlaying()) {
