@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Помощник разработчика</string>
+    <string name="noButton">Нееееет</string>
+    <string name="laughterButton">Смех за кадром</string>
+    <string name="devilButton">Дьявольский смех</string>
+    <string name="eralashButton">Ералаш</string>
+    <string name="stopButton">Стоп</string>
+</resources>

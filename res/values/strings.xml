@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Developer helper</string>
+    <string name="noButton">Nooo</string>
+    <string name="laughterButton">Laughter</string>
+    <string name="devilButton">Devil</string>
+    <string name="eralashButton">Eralash</string>
+    <string name="stopButton">Stop</string>
+</resources>

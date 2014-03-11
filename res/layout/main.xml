@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noButton"
+        android:id="@+id/noButton"
+        android:onClick="onNo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laughterButton"
+        android:id="@+id/laughterButton"
+        android:layout_below="@id/noButton"
+        android:onClick="onLaughter"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/devilButton"
+        android:id="@+id/devilButton"
+        android:layout_below="@id/laughterButton"
+        android:onClick="onDevil"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eralashButton"
+        android:id="@+id/eralashButton"
+        android:layout_below="@id/devilButton"
+        android:onClick="onEralash"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stopButton"
+            android:id="@+id/stopButton"
+            android:onClick="onStop" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
