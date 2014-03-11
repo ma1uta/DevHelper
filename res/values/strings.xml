@@ -6,5 +6,6 @@
     <string name="devilButton">Devil</string>
     <string name="eralashButton">Eralash</string>
     <string name="stopButton">Stop</string>
-    <string name="whipButton">Whip</string>
+    <string name="WhipOFF">Whip OFF</string>
+    <string name="WhipON">Whip ON</string>
 </resources>

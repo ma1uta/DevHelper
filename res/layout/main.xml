@@ -37,13 +37,14 @@
         android:onClick="onEralash"
         android:layout_marginTop="10dp"/>
 
-    <Button
+    <ToggleButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/whipButton"
         android:id="@+id/whipButton"
         android:layout_below="@id/eralashButton"
         android:onClick="onWhip"
+        android:textOn="@string/WhipON"
+        android:textOff="@string/WhipOFF"
         android:layout_marginTop="10dp"/>
 
     <RelativeLayout
