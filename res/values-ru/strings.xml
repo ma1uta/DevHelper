@@ -6,6 +6,7 @@
     <string name="devilButton">Дьявольский смех</string>
     <string name="eralashButton">Ералаш</string>
     <string name="stopButton">Стоп</string>
-    <string name="WhipOFF">Кнут выключён</string>
-    <string name="WhipON">Кнут включён</string>
+    <string name="Whip">Кнут</string>
+    <string name="startService">Запустить службу</string>
+    <string name="stopService">Остановить службу</string>
 </resources>

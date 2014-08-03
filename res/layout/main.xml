@@ -37,14 +37,31 @@
         android:onClick="onEralash"
         android:layout_marginTop="10dp"/>
 
-    <ToggleButton
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/whipButton"
         android:layout_below="@id/eralashButton"
         android:onClick="onWhip"
-        android:textOn="@string/WhipON"
-        android:textOff="@string/WhipOFF"
+        android:text="@string/Whip"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startService"
+        android:id="@+id/startService"
+        android:layout_below="@id/whipButton"
+        android:onClick="onStartService"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopService"
+        android:id="@+id/stopService"
+        android:layout_below="@id/startService"
+        android:onClick="onStopService"
         android:layout_marginTop="10dp"/>
 
     <RelativeLayout
